@@ -3,9 +3,9 @@ class Robot {
         UP, DOWN, LEFT, RIGHT
     }
 
-    private int x = 0;
-    private int y = 0;
-    private Direction direction = Direction.UP;
+    private int x;
+    private int y;
+    private Direction direction;
 
     Robot(int x, int y, Direction direction) {
         this.x = x;
